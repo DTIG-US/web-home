@@ -6,11 +6,10 @@ import { OfferingComponent } from '../web-offering/offering.component';
 
 @Component({
   selector: 'app-home',
-  imports: [CarouselComponent, PartnersComponent, DemoComponent, OfferingComponent],
+  imports: [CarouselComponent, PartnersComponent, OfferingComponent],
   template: `
     <app-carousel></app-carousel>
     <app-partners></app-partners>
-    <app-demo></app-demo>
     <app-offering></app-offering>
   `
 })
